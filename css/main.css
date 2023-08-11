@@ -161,7 +161,7 @@ h2 {
 header {
     padding: 100px 0;
     text-align: left;
-    background: url(../img/header.jpg);
+    background: black;
     background-size: cover;
     height: 100vh;
     display: -webkit-box;
@@ -187,7 +187,8 @@ header .after-h1 {
 }
 
 header .header-box {
-    width: 60%;
+    width: 100%;
+    text-align: center;
 }
 
 header .header-box .btn {
@@ -852,10 +853,6 @@ button.close {
         width: 46%;
     }
 
-    header .after-h1 {
-        width: 56%;
-    }
-
     #sale {
         background: url(../img/sale.jpg);
         background-position: center;
@@ -983,8 +980,6 @@ button.close {
 
     header {
         padding: 160px 0 20px;
-        background: url(../img/header.jpg);
-        background-position: right;
     }
 
     section {
